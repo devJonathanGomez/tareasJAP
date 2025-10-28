@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqueta solo Bootstrap</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-xl">
+            
+            <a class="navbar-brand fw-bold" href="#">LOREM IPSUM</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavContent" aria-controls="navbarNavContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavContent">
+                
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item d-lg-none mt-2">
+                         <form class="d-flex" role="search">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dolor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Amet</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#mobileOpcionesCollapse" role="button" aria-expanded="false" aria-controls="mobileOpcionesCollapse">
+                            Opciones
+                        </a>
+                    </li>
+                </ul>
+                
+                <form class="d-flex d-none d-lg-flex" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-xl mt-4">
+        <div class="row">
+
+            <aside class="col-lg-3 d-none d-lg-block">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">Opción 1</a>
+                    <a href="#" class="list-group-item list-group-item-action">Opción 2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Opción 3</a>
+                    <a href="#" class="list-group-item list-group-item-action">Opción 4</a>
+                </div>
+            </aside>
+
+            <section class="col-lg-9 col-md-12">
+
+                <div class="collapse d-lg-none mb-3" id="mobileOpcionesCollapse">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">Opción 1</a>
+                        <a href="#" class="list-group-item list-group-item-action">Opción 2</a>
+                        <a href="#" class="list-group-item list-group-item-action">Opción 3</a>
+                        <a href="#" class="list-group-item list-group-item-action">Opción 4</a>
+                    </div>
+                </div>
+
+                <div class="d-none d-lg-block text-center my-3">
+                    <div id="textCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <span class="border border-danger p-2 d-inline-block fs-5">...vestibulum mollis, tortor ac congue commodo...</span>
+                            </div>
+                            <div class="carousel-item">
+                                <span class="border border-danger p-2 d-inline-block fs-5">Lorem ipsum dolor sit amet, consectetur...</span>
+                            </div>
+                            <div class="carousel-item">
+                                <span class="border border-danger p-2 d-inline-block fs-5">Phasellus eleifend semper tempor...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row bg-white border rounded g-0">
+                    
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis, tortor ac congue commodo, nisi neque bibendum elit, quis vulputate dolor augue ut mauris. tincidunt.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                         <p>Phasellus eleifend semper tempor. Quisque mi lorem, laoreet eu urna sit amet, tempor volutpat est. Vestibulum lobortis nulla vel odio laoreet, iaculis rhoncus neque porttitor.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <p>Fusce vitae enim et tellus lacinia condimentum eu at massa. Nullam laoreet, elit quis hendrerit maximus, ante sem congue lorem, at vestibulum felis mauris et arcu.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <p>Mauris mattis porttitor erat, in pharetra risus fringilla lobortis. Vestibulum et ante commodo, imperdiet neque ac, tempus felis. Nullam sed pharetra purus. Donec sit amet ultricies nisi.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <p>In mi velit, fringilla sed velit vel, ornare varius dui. Nunc viverra diam sit amet mollis posuere. Nullam semper odio in consectetur ornare.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <p>Proin suscipit orci mi, ut hendrerit mi molestie nec. Donec efficitur risus erat, eu auctor massa molestie vitae.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                         <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec lectus ligula, ultricies ut est nec, varius dignissim nulla.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-3">
+                        <p>In aliquet fringilla libero, quis dapibus massa tincidunt a. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                     </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
