@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#score-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+#image-container {
+    margin-bottom: 1rem;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dog-image {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+#options-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+#next-button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+}
+
+.correct {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.incorrect {
+    background-color: #dc3545 !important;
+    color: white;
+}
